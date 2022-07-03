@@ -1,0 +1,12 @@
+.affairContainer {
+    display:flex;
+    justify-content:space-between;
+    width: 500px;
+}
+.affair {
+    min-width: 100px;
+}
+
+.high {
+    background: red;
+}

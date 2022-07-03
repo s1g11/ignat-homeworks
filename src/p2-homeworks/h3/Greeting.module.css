@@ -1,0 +1,24 @@
+.someClass {
+
+}
+
+.error {
+    border: 0;
+    outline: 1px solid red;
+}
+
+.errorText {
+    color: red;
+}
+
+input {
+    border: 0;
+    outline: 1px solid #000;
+}
+
+.formContainer {
+    display: flex;
+}
+.inputContainer div {
+    height: 30px;
+}

@@ -1,0 +1,41 @@
+p {
+    margin: 0;
+}
+
+.message img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.message {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.MessageContainer {
+    position: relative;
+    padding: 5px 5px 5px 15px;
+    background: #9DFF3F;
+    align-self: center;
+    clip-path: polygon(10px 0, 100% 0%, 100% 100%, 0 100%, 10px 90%);
+}
+
+.userName {
+    font-weight: bold;
+}
+
+.messageText {
+    min-width: 150px;
+    max-width: 300px;
+    word-wrap: break-word;
+}
+
+.time {
+    margin-left: 20px;
+    font-style: italic;
+    color: #383838;
+    font-size: 13px;
+    text-align: end;
+}

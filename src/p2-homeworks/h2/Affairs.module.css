@@ -1,0 +1,36 @@
+.affairsContainer {
+    padding: 20px;
+}
+
+button {
+    padding: 5px 15px;
+    background: #fff;
+    border-radius: 0;
+    border: 0;
+    box-shadow: 0 0 5px #000;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #000;
+    color: #fff;
+}
+
+.high:hover {
+    background: red;
+    box-shadow: 0 0 5px red;
+    color: #000;
+}
+
+.middle:hover {
+    background: yellow;
+    box-shadow: 0 0 5px yellow;
+    color: #000;
+}
+
+.low:hover {
+    background: green;
+    box-shadow: 0 0 5px green;
+    color: #000;
+}

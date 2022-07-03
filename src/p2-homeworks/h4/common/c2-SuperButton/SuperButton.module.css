@@ -1,0 +1,12 @@
+.default {
+    background: aquamarine;
+}
+
+.default:disabled {
+    background: #383838;
+    color: #fff;
+}
+
+.red {
+    background: red;
+}
